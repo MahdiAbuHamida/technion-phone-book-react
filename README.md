@@ -1,4 +1,4 @@
-# 📱 Technion Phone Book – React Web App
+# 📱 Phonebook – React Web App
 
 ![image](https://github.com/user-attachments/assets/e6e1c4c9-c9fd-4285-8f77-5d28a4409539)
 
