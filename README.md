@@ -1,4 +1,4 @@
-![Screenshot (10)](https://github.com/user-attachments/assets/413a98e3-2ab9-4238-9b41-16d14bf56dfe)# 📱 Technion Phone Book – React Web App
+# 📱 Technion Phone Book – React Web App
 
 A React-based phone book web app developed during my studies at the Technion – Israel Institute of Technology.
 
