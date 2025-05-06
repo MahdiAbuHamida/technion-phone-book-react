@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+
+.contact-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    width: 100%;
+    border-bottom: 1px solid white;
+    gap: 10em;
+    font-size: 0.7rem;
+    font-family: "Lato";
+}
+
+.contact-card div {
+    width: 100px;
+    text-align: center;
+}
+
+.contact-card .cc-img  img{
+    border-radius: 50px;
+}
+
+.contact-card .cc-tools {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-card .cc-tools button {
+    font-size: 1.2rem;
+    border: none;
+    height: 25px;
+    width: 25px;
+    display: block;
+    color: #fff;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0));
+}
+
+.contact-card .cc-tools .cc-trash-btn:hover {
+    color: red;
+}
+
+.contact-card .cc-tools .cc-edit-btn:hover {
+    color: rgb(221, 189, 8);
+}
+
+.contact-card .cc-tools .cc-info:hover {
+    color: rgb(93, 114, 185)
+}

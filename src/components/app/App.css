@@ -1,0 +1,47 @@
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  color: azure;
+}
+
+.top-title {
+  color: rgb(12, 219, 219);
+  font-size: 2.5rem;
+  margin-top: 1em;
+  text-shadow: 0px 5px 14px #000;
+}
+
+main {
+  flex: 1;
+  margin-top: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  color:rgb(12, 219, 219);
+  font-size: 1.1rem;
+}
+
+@media (max-width: 800px) {
+
+  .top-title {
+    margin-top: 2em;
+    padding-bottom: 1em;
+  }
+
+  footer {
+    margin-top: 7em;
+  }
+}
+
+@media (max-width: 420px) {
+  footer {
+    margin-top: 21em;
+  }
+}

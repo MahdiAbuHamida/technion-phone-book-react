@@ -1,0 +1,59 @@
+.card-info-container {
+    width: 400px;
+    max-height: 800px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 0.8rem;
+}
+
+.c-i-img {
+    border-radius: 30px;
+    width: 60%;
+    height: 60%;
+    max-width: 600px;
+    max-height: 700px;
+    filter: grayscale(0.5);
+}
+
+.c-i-img:hover {
+    box-shadow: 0px 0px 30px 10px rgba(255, 255, 255, 0.335);
+    transition: 0.5s;
+    width: 90%;
+    height: 90%;
+    max-width: 600px;
+    max-height: 700px;
+    filter: grayscale(0);
+}
+
+.c-i-txt-container {
+    padding: 0.4em 0em 0.4em 0em;
+    display: flex;
+    gap: 6px;
+    justify-content: center;
+    align-items: center;
+}
+
+.c-i-txt-container label {
+    font-size: 1.1rem;
+    color: rgb(12, 219, 219);
+}
+
+.c-i-txt-container h2 {
+    font-size: 0.9rem;
+}
+
+.btn-close {
+    margin-top: 0.3em;
+    border-radius: 10px;
+    border: none;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0));
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 3rem;
+}
+
+.btn-close:hover {
+    color: white;
+}

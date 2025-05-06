@@ -1,0 +1,133 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    width: 500px;
+    max-height: 900px;
+    border-radius: 20px;
+    background: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2em;
+    gap: 20px;
+}
+
+form h1 {
+    font-size: 1.8rem;
+    padding-bottom: 1em;
+    color: #000;
+}
+
+form .form-control {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #000;
+    gap: 5px;
+}
+
+form .form-control label {
+    font-size: 1.2rem;
+}
+
+form .form-control input {
+    padding: 0.7em;
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    background: rgb(44, 43, 43);
+    font-size: 1rem;
+    color: #FFF;
+}
+
+.form-control input:focus {
+    background-color: #FFF;
+    color: #000;
+}
+
+.form-control .error {
+    color: red;
+    font-size: 0.9rem;
+}
+
+.form-control i {
+    color: rgb(36, 204, 45);
+}
+
+.form-control-txt .txt-label {
+    font-size: 1.2rem;
+    color: black;
+    display: block;
+    text-align: center;
+}
+
+.form-control-txt textarea {
+    padding: 0.2em;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    max-width: 400px;
+    font-size: 13pt;
+}
+
+.form-control-img {
+    margin-top: 0.3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-input::-webkit-file-upload-button {
+    visibility: hidden;
+}
+.image-label {
+    color: black;
+    font-size: 0.87rem;
+}
+
+.image-input {
+    background-image: url(../../images/upload-contact-pic-icon.png);
+    background-size: contain;
+    border-radius: 50px;
+    width: 39px;
+    height: 40px;
+}
+
+.form-control input, form .submitting button {
+    box-shadow: 0px 0px 10px 5px rgba(27, 27, 27, 0.575);
+}
+
+form .submitting {
+    margin-top: 2em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+form .submitting button {
+    padding: 0.8em;
+    border: none;
+    border-radius: 25px;
+    font-size: 1.1rem;
+}
+
+.submitting .add-save-contact {
+    border: 2px solid rgb(39, 167, 206);
+    color: rgb(46, 46, 46);
+}
+
+.submitting .cancel-btn {
+    border: 2px solid rgb(44, 43, 43);
+    color: rgb(44, 44, 44);
+}

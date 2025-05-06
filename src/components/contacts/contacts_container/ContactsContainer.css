@@ -1,0 +1,66 @@
+.contacts-container {
+    margin-top: 1em;
+    padding: 1em 3em 1em 3em;
+    box-shadow: 0px 0px 40px 20px rgba(0, 0, 0, 0.527);
+    border-radius: 6px;
+    height: 700px;
+    border: 3px solid rgb(85, 83, 83);
+    width: 850px;
+    overflow-y: scroll;
+}
+
+.contacts-container::-webkit-scrollbar {
+    width: 10px;
+    background: linear-gradient(transparent, rgb(14, 223, 223));
+    border-radius: 6px;
+}
+
+.table {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+    justify-content: center;
+}
+
+.table .contacts-header h1 {
+    border-bottom: 1px solid rgb(12, 219, 219);
+}
+
+.table .contacts-header i {
+    font-size: 2rem;
+    color: rgb(12, 219, 219);
+    border-bottom: 1px solid white;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0));
+}
+
+.table .contacts-header i, .table .contacts-header h1 {
+    display: block;
+    text-align: center;
+    width: 100px;
+}
+
+.table .contacts-header, .table .contacts-list {
+    display: flex;
+    justify-content: center;
+    gap: 10em;
+    font-size: 0.73rem;
+    max-width: 700px;
+}
+
+
+.table .contacts-list {
+    flex-direction: column;
+    gap: 1em;
+    margin-top: 2em;
+}
+
+.contacts-list .txt-no-results {
+    text-align: center;
+    margin-top: 2em;
+}
+
+@media (max-width: 700px ) {
+    .contacts-container {
+        margin-top: 9em;
+    }
+}
